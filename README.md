@@ -21,3 +21,9 @@ Financially, this translates into specific scenarios: if the price of the underl
     - Knock-in not knocked-out: min (final price / initial price - 1, 0) x principal
     - Neither Knock-In Nor Knock-Out: 20% x nominal principal x number of interest days / 365
 
+## Monte Carlo Simulation
+
+Since snowball options are path-dependent products, we can use the Monte Carlo Simulation method to price them. The essence of Monte Carlo Simulation is to simulate the random motion of the underlying variables. Based on the set volatility and risk-free interest rate, we generate N random price paths. Then, according to the revenue rules of the contract terms, we calculate the returns for each price path. The fair price of the current snowball product is the discounted value of the returns for all N paths back to the initial date, averaged out.
+
+
+
