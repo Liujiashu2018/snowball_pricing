@@ -42,6 +42,11 @@ Since snowball options are path-dependent products, we can use the Monte Carlo S
   <img src="Simulation_results.png" alt="Second Image" style="width: 39%;"/>
 </p>
 
+## Actual vs Simulated Prices
 
+<p align="center">
+  <img src="CMC1C89.tmp.png" alt="First Image" style="width: 50%;"/>
+  <img src="option_price.png" alt="Second Image" style="width: 48%;"/>
+</p>
 
 
