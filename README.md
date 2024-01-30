@@ -25,5 +25,17 @@ Financially, this translates into specific scenarios: if the price of the underl
 
 Since snowball options are path-dependent products, we can use the Monte Carlo Simulation method to price them. The essence of Monte Carlo Simulation is to simulate the random motion of the underlying variables. Based on the set volatility and risk-free interest rate, we generate N random price paths. Then, according to the revenue rules of the contract terms, we calculate the returns for each price path. The fair price of the current snowball product is the discounted value of the returns for all N paths back to the initial date, averaged out.
 
+<p align="center">
+  <img src="equation.png" alt="equation" width="400"/>
+</p>
+
+- S<sub>t</sub>: The price of the underlying at time t.
+- &mu;: The risk-free interest rate.
+- &sigma;: The standard deviation of the underlying's returns (annualized volatility).
+- (T - t): Time to maturity.
+- &epsilon;: &epsilon; is normally distributed, &epsilon;∼N(0,1), representing the standard normal distribution. By sampling &epsilon;, we can simulate the price of the underlying.
+
+
+
 
 
