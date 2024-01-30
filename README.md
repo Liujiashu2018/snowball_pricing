@@ -7,4 +7,17 @@ Snowball options, similar in nature to exotic options with barrier clauses, are 
 
 Financially, this translates into specific scenarios: if the price of the underlying asset rises to a certain level (knock-out price), the snowball product terminates early, and the investor receives a fixed return for the duration of the investment. If the price of the underlying asset falls to a certain level (knock-in price), then the profit or loss will be determined based on the underlying asset's price on the expiration date, and the investor may bear the risk of the underlying asset's price falling. If the underlying asset never touches the knock-in or knock-out price, the investor receives a fixed return for the entire duration of the product.
 
+### Senario Analysis
+
+- Underlying index: 000852（CSI1000）
+- Product duration: 24 months
+- Annual yield: 20%
+- Knock-in level: Initial price x 103%
+- Knock-out level: Initial price x 75%
+- Knock-Out Event (Monthly Observation): On any knock-out day (every observation day), if the closing price of the linked underlying exceeds the knock-out level
+- Knock-In Event (Daily Observation): On any knock-in observation day (every trading day), if the closing price of the linked underlying is below the knock-in level
+- Earnings:
+    - Knock-out (early termination of the contract): 20% x nominal principal x number of interest days / 365
+    - Knock-in not knocked-out: min (final price / initial price - 1, 0) x principal
+    - Neither Knock-In Nor Knock-Out: 20% x nominal principal x number of interest days / 365
 
