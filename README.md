@@ -35,6 +35,9 @@ Since snowball options are path-dependent products, we can use the Monte Carlo S
 - (T - t): Time to maturity.
 - &epsilon;: &epsilon; is normally distributed, &epsilon;∼N(0,1), representing the standard normal distribution. By sampling &epsilon;, we can simulate the price of the underlying.
 
+## Simulation Results
+
+
 
 
 
