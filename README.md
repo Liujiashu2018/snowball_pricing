@@ -37,6 +37,7 @@ Since snowball options are path-dependent products, we can use the Monte Carlo S
 
 ## Simulation Results
 
+![price paths from Monte Carlo Simulation](simulation_price_paths.png)
 
 
 
